@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+.Card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
