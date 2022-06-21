@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class PlanetCard extends React.Component {
   render() {
     const { planetName, planetImage } = this.props;
-    const alternate = `Planeta ${planetImage}`;
+    const alternate = `Planeta ${planetName}`;
     return (
       <div data-testid="planet-card" className="Card">
         <p data-testid="planet-name">{planetName}</p>
